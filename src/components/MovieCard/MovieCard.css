@@ -1,0 +1,77 @@
+.movie{
+    height: 30rem;
+}
+.card{
+    width: 18rem;
+    height: 25rem;
+    margin: 50px 10px;
+    border-radius:12px;
+    border: none;
+}
+.card-body{
+    background-color: rgb(38, 37, 37);
+    border-radius: 0 0 10px 10px;
+}
+.card-img-top{
+    height: 18rem;
+    border-radius:10px 10px 0 0;
+}
+.card-title{
+    color: white;
+    background-color: rgb(38, 37, 37);
+    text-align: left !important;
+}
+.card-text{
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    font-weight: bold; 
+    background: linear-gradient(45deg, #ffcc00, #ff9900, #ffcc66, #ffcc33);
+    -webkit-background-clip: text; /* دعم للمتصفحات التي تحتاج خاصية -webkit */
+    -webkit-text-fill-color: transparent; /* جعل النص شفافًا لإظهار التدرج */
+    background-clip: text;
+    color: transparent; /* جعل النص شفافًا لعرض التدرج عليه */
+    background-color: rgb(38, 37, 37);
+    text-align: left !important;
+}
+.year{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background-color: transparent;
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    font-weight: bold; 
+    background: linear-gradient(45deg, #ffcc00, #ff9900, #ffcc66, #ffcc33);
+    -webkit-background-clip: text; /* دعم للمتصفحات التي تحتاج خاصية -webkit */
+    -webkit-text-fill-color: transparent; /* جعل النص شفافًا لإظهار التدرج */
+    background-clip: text;
+    color: transparent; 
+    background-color: rgb(38, 37, 37);
+    z-index: 10;
+    display: none;
+}
+
+.btn-primary{
+    display: flex;
+    justify-content: center;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+.card:hover .card-body{
+    background-color: transparent;
+}
+.card:hover .card-title,.card:hover .card-text{
+    background-color: transparent; 
+    position: relative;
+    bottom: 120px;
+}
+.card:hover .card-img-top{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    filter: brightness(20%);
+}
+.card:hover .year{
+    display: block;
+}

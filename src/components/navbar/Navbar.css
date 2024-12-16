@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+}
+
+.navbar{
+    margin: 20px !important;
+    padding: 0 !important;
+}
+.logo
+{
+    width: 100px !important;
+    border-radius: 50%;
+}
+.Dark-Mode-contaner{
+    display: flex;
+    justify-content: space-around;
+    width: 16%;
+}
+.Dark-Mode{
+    color: white;
+}
